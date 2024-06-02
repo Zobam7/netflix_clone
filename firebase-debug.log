@@ -1,0 +1,47 @@
+[debug] [2024-06-02T17:44:46.669Z] ----------------------------------------------------------------------
+[debug] [2024-06-02T17:44:46.673Z] Command:       /Users/zobam/.nvm/versions/node/v22.1.0/bin/node /Users/zobam/.nvm/versions/node/v22.1.0/bin/firebase init hosting
+[debug] [2024-06-02T17:44:46.674Z] CLI Version:   13.8.0
+[debug] [2024-06-02T17:44:46.674Z] Platform:      darwin
+[debug] [2024-06-02T17:44:46.674Z] Node Version:  v22.1.0
+[debug] [2024-06-02T17:44:46.674Z] Time:          Sun Jun 02 2024 18:44:46 GMT+0100 (West Africa Standard Time)
+[debug] [2024-06-02T17:44:46.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-02T17:44:46.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-02T17:44:46.772Z] > authorizing via signed-in user (zobamokoli7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/zobam/Desktop/netflix_clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-02T17:44:46.776Z] Using project from CLI flag: netflix-clone-4edb4
+[debug] [2024-06-02T17:44:46.779Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 [none]
+[debug] [2024-06-02T17:44:47.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 200
+[debug] [2024-06-02T17:44:47.816Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 {"projectId":"netflix-clone-4edb4","projectNumber":"409837464799","displayName":"netflix-clone","name":"projects/netflix-clone-4edb4","resources":{"hostingSite":"netflix-clone-4edb4","storageBucket":"netflix-clone-4edb4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_10953884-a90b-48b3-8837-d4318fb8a2b3"}
+[info] i  Using project netflix-clone-4edb4 (netflix-clone) 
+[info] 
+=== Hosting Setup
+[debug] [2024-06-02T17:44:47.843Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 [none]
+[debug] [2024-06-02T17:44:48.414Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 200
+[debug] [2024-06-02T17:44:48.414Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-4edb4 {"projectId":"netflix-clone-4edb4","projectNumber":"409837464799","displayName":"netflix-clone","name":"projects/netflix-clone-4edb4","resources":{"hostingSite":"netflix-clone-4edb4","storageBucket":"netflix-clone-4edb4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_10953884-a90b-48b3-8837-d4318fb8a2b3"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
